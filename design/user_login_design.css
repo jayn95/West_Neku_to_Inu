@@ -1,0 +1,81 @@
+body {
+    font-family: 'Lora';
+    background: rgb(227,211,255);
+    background: linear-gradient(90deg, rgba(227,211,255,1) 0%, rgba(248,247,244,1) 100%); 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.header h2 {
+    padding-bottom: 15px;
+    margin: 0 auto;
+    color: #313638;
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+.error {
+    color: #e74c3c;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #B784B7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8E7AB5;
+}
+
+.login-reference {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-reference a {
+    color: #8E7AB5; /* Green color for the link */
+    text-decoration: none;
+}
+
+.login-reference a:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}

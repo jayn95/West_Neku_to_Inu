@@ -1,0 +1,156 @@
+/* Navigation Bar */
+.navBar {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.navContents {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navContents li {
+    display: inline;
+}
+
+.navContents li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.navContents li a:hover {
+    background-color: #555;
+}
+
+/* Gallery */
+.alb {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    float: left;
+    width: calc(33.33% - 40px); /* Adjust the width of each item */
+    box-sizing: border-box;
+}
+
+.alb img {
+    display: block;
+    width: 100%;
+    height: 150px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.alb h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.alb p {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #B784B7;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8E7AB5;
+}
+
+/* Admin Login */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    }
+    
+.header h2 {
+        text-align: center;
+        color: #333;
+    }
+    
+.form-group {
+    margin-bottom: 20px;
+    }
+    
+label {
+    display: block;
+    margin-bottom: 5px;
+    }
+    
+input[type="text"],
+input[type="password"] {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    
+.btn {
+    display: block;
+    width: 45%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+.btn:hover {
+    background-color: #45a049;
+    }
